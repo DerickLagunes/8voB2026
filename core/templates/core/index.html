@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block contenido %}
+<h1>Bienvenido a la página del 8B</h1>
+<a href="{% url 'nuevo' %}">Da click aqui </a>
+<img src="{% static 'img/6.png' %}" />
+{% endblock %}
